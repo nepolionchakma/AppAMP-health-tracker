@@ -1,0 +1,364 @@
+/* Start Now Main CSS */
+body,h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Work Sans',sans-serif;
+}
+.myhoversdw:hover{
+    box-shadow: 0px 1px 20px #6278df;
+}
+.boxsdw{
+    box-shadow: 0px 1px 15px #6278df;
+}
+.boxsdw2 {
+    box-shadow: 0px 0px 15px #b8c0ea !important;
+}
+.mybg{
+    background: #f7f9ff;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header Section */
+.custom-header{}
+
+.custom-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+.my-menu {
+    justify-content: space-between;
+}
+.my-menu .nav-link {
+    padding: 0 15px !important;
+    color: #000 !important;
+}
+.custom-header span {
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    height: 37px;
+    width: 31px;
+}
+
+/* slider-caption */
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.403);
+    z-index: -1;
+}
+
+.slider-cap h6{
+    font-size: 20px;
+    font-weight: normal;
+}
+.slider-cap h3{
+    font-size: 40px;
+}
+.slider-cap .form-control{
+    padding: 16px 20px;
+}
+.slider-cap .form-control:focus{
+    border:1px solid transparent;
+    box-shadow: 0 0 0 .2rem rgba(13,110,253,.25);
+    color: transparent;
+}
+.slider-cap .form-control:hover{
+    border: 1px solid #6278df;
+    box-shadow: 0px 1px 20px #6278df;
+}
+.slider-cap .btn{
+    font-weight: 600;
+    padding: 16px 0;
+    
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 20px transparent;
+}
+.slider-cap .btn:hover {
+    border: 1px solid #6278df;
+    box-shadow: 0px 1px 20px #6278df;
+    background: #fff;
+    color: #6278df;
+}
+/* Counter Section */
+.count-dwn{}
+.count-dwn h3{
+    font-size: 50px;
+}
+
+/* Learn More */
+.learn-more-title{}
+.learn-more-title h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+.learn-more-title p{}
+.learn-more-item{
+    height: 230px;
+    
+    border-radius: 5px;
+}
+.learn-more-item-left {
+    width: 40%;
+    overflow: hidden;
+    
+    border-radius: 5px;
+}
+.learn-more-item-left img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+.learn-more-item-right{
+    width: 60%;
+}
+.learn-more-item-right h4{
+    font-size: 20px;
+}
+.learn-more-item-right p{
+    font-size: 14px;
+}
+
+/* Protfolio */
+.protfolio-img a{
+    display: block;
+    position: relative;
+}
+.protfolio-img:hover a:after{
+    opacity: 1;
+    visibility: visible;
+}
+.protfolio-img img{}
+.protfolio-img a::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: rgba(98,120,223, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: ease.4s;
+}
+
+/* Pricing Table */
+.pricing-table-title{}
+.pricing-table-title h2 {
+    font-size: 50px;
+    font-weight: normal;
+}
+.pricing-table-title p{
+    font-size: 23px;
+}
+.pricing-item {
+    background: #fff;
+}
+.pricing-item h3 {
+    font-size: 40px;
+}
+.pricing-item h6 {
+    font-size: 22px;
+    font-weight: 300;
+}
+.pricing-item ul{
+    list-style: none;
+    padding: 0;
+}
+.pricing-item ul li {
+    margin-bottom: 30px;
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+}
+.pricing-item ul li span {
+    color: #6278df;
+    width: 30px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+}
+.pricing-item ul li span i {
+    font-size: 25px;
+}
+.pricing-btn .btn{
+    border:1px solid #8b94be
+}
+.pricing-btn a:hover{
+    color: #fff !important;
+    background: #000 !important;
+    border: 1px solid #000 !important;
+    transition: .4s !important;
+}
+.pricing-item:hover .pricing-btn .btn {
+    color: #fff;
+    background: #6278df;
+    border: 1px solid #6278df;
+    transition: .4s;
+
+}
+
+
+/* <!--  Feedback User Start --> */
+.feedback-user h6 {
+    font-size: 25px;
+}
+.feedback-user h4 {
+    font-size: 40px;
+    font-weight: normal;
+}
+.feedback-user i {
+    font-size: 60px;
+    user-select: none;
+    color: #eee;
+}
+.feedback-user p{
+    font-size: 20px;
+}
+.author-info{
+    width: 200px;
+    margin: auto;
+}
+.author-info img {
+    width: 55px;
+    margin-right: 15px;
+}
+.user-info-title{}
+.user-info-title h4 {
+    font-size: 22px;
+    text-align: left;
+    font-weight: 500;
+}
+.user-info-title h6 {
+    font-size: 14px;
+    text-align: left;
+    color: #666;
+}
+
+/* <!--  Feedback User end --> */
+
+/* <!--  Our Team and History Start--> */
+
+.ourteam-top{}
+.ourteam-top h4 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.ourteam-top p {
+    font-size: 19px;
+    font-weight: 300;
+}
+.btn-light.boxsdw2:hover{
+    background: #0d6efd;
+    color: #fff;
+}
+.about-item .card img{
+    width: 110px;
+    height: auto;
+    position: relative;
+    top: -54px;
+    left: 20px;
+}
+.card-body h6{
+    font-weight: 400;
+    font-size: 25px;
+}
+.card-body p{
+    font-size: 15px;
+    color: #666;
+}
+/* <!--  Our Team and History End--> */
+
+.row .col h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.row .col h6 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #666;
+}
+
+/* Our App  */
+.ourapp{}
+.ourapp p{
+    font-size: 25px;
+    font-weight: 300;
+    color: #666;
+}
+.ourapp h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.our-btn a.btn-lg{
+    padding: 18px 27px;}
+/* <!--  Our Team and History Start--> */
+
+/* <!--  Footer Start--> */
+.footer p a{
+    text-decoration: none;
+}
+/* <!--  Footer End--> */
+
+.our-btn a.btn-lg{
+    padding: 18px 27px;
+}
+/* Responsive  */
+@media (max-width:1200px) {
+    .our-btn a.btn-lg{
+        padding: 9px;
+    }
+}
+@media (max-width:992px) {
+    .our-btn a.btn-lg {
+        margin: 10px 0;
+    }
+    .slider-section {
+        padding: 70px 0;
+    }
+    .my-menu{
+        margin-left: 0 !important;
+    }
+    .my-menu ul{
+        margin-left: 0 !important;
+    }
+    .slider-cap h6 {
+        margin-bottom: 10px !important;
+    }
+    .slider-cap h3 {
+        font-size: 35px;
+        margin-bottom: 10px !important;
+    }
+    .slider-cap .form-control {
+        margin-bottom: 15px;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .custom-header {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .learn-more-item-left img {
+        left: 0;
+    }
+}
+@media (max-width:576px){
+    .learn-more-item-left img {
+        left: 0;
+    }
+}
